@@ -2,7 +2,7 @@ class Aflow < Formula
   desc "Automatic FLOW for Materials Discovery"
   homepage "https://aflow.org"
   url "https://github.com/aflow-org/aflow/releases/download/v4.0.5/aflow_4.0.5.orig.tar.gz"
-  sha256 "sha256:4b250edf96f5318fc8588321a7778e5e271616d6cad3b4cc405a6cacb4c95b19"
+  sha256 "4b250edf96f5318fc8588321a7778e5e271616d6cad3b4cc405a6cacb4c95b19"
   license "GPL-3.0-only"
 
   depends_on "cmake" => :build
