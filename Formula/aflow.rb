@@ -1,7 +1,7 @@
 class Aflow < Formula
   desc "Automatic FLOW for Materials Discovery"
   homepage "https://aflow.org"
-  url "https://github.com/aflow-org/aflow/releases/download/v4.1/aflow_4.1.orig.tar.gz"
+  url "https://release-assets.githubusercontent.com/github-production-release-asset/1000445248/ffa3eb97-eaf2-42d6-8e8e-06d96c5b8579" # "https://github.com/aflow-org/aflow/releases/download/v4.1/aflow_4.1.orig.tar.gz"
   sha256 "3711ed521e97c8a005d89720a4d990930ab3d928f5d2bf718a713c0d0e0f3d0a"
   license "GPL-3.0-only"
 
