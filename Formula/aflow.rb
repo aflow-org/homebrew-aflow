@@ -19,6 +19,7 @@ class Aflow < Formula
   depends_on "libarchive"
   depends_on "openssl@3"
   def install
+    ENV["AFLOW_RELEASE"] = "true"
     system "cmake", "-S", "./src/", "--preset", "release", *std_cmake_args
     system "cmake", "--build", "build/release"
     system "cmake", "--install", "build/release"
